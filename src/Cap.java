@@ -7,6 +7,11 @@ public class Cap implements Item{
     }
 
     @Override
+    public String color() {
+        return color;
+    }
+
+    @Override
     public double price() {
         return 54.5;
     }

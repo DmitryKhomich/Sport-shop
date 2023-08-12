@@ -19,7 +19,7 @@ public class Order {
 
     public void showItems() {
         for (Item item : list) {
-            System.out.print("Item : " + item.name());
+            System.out.print("Item : " + item.color() + " " + item.name());
             System.out.print(", Producer : " + item.producer().name());
             System.out.println(", Price : " + item.price());
         }

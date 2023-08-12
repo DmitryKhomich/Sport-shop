@@ -7,6 +7,11 @@ public class Tshirt implements Item {
     }
 
     @Override
+    public String color() {
+        return color;
+    }
+
+    @Override
     public double price() {
         return 50.0;
     }

@@ -14,7 +14,7 @@ public class App {
         Order orderB = builder.orderB();
 
         System.out.println("Second order: ");
-        orderA.showItems();
+        orderB.showItems();
         System.out.println("Total cost is " + orderB.getCost() + " USD.");
     }
 }
